@@ -1,6 +1,6 @@
 # SickFits
 
-A full stack online ecommerce store.
+A full stack online eCommerce store.
 
 ![Screenshot](https://github.com/alvinkw/Sickfits-ecommerce/blob/master/Screenshot.png)
 
