@@ -1,16 +1,14 @@
 # SickFits
 
-A full stack online clothing store complete with real credit checkout.
+A full stack online ecommerce store.
 
 ![Screenshot](https://github.com/alvinkw/Sickfits-ecommerce/blob/master/Screenshot.png)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
-What things you need to install the software
+Things you need to install:
 
 ```
 node 10.x.x
@@ -22,11 +20,10 @@ mailtrap
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
 1. Clone the repository
 ```
-git clone https://github.com/kazijawad/SickFits.git
+git clone https://github.com/AlvinKW/Sickfits-ecommerce.git
 ```
 
 2. Enter the backend directory and install the necessary packages
@@ -54,77 +51,35 @@ PRISMA_SECRET=xxx
 STRIPE_SECRET=xxx
 ```
 
-5. Create a now.json file with the necessary environment variables with your preferred value
-```
-{
-	"version": 2,
-	"name": "SickFits Backend",
-	"builds": [
-		{
-			"src": "src/index.js",
-			"use": "@now/node-server"
-		}
-	],
-	"routes": [
-		{
-			"src": "/.*",
-			"dest": "src/index.js"
-		}
-	],
-	"env": {
-		"APP_SECRET": "XXX",
-		"FRONTEND_URL": "XXX",
-		"MAIL_HOST": "XXX",
-		"MAIL_PASS": "XXX",
-		"MAIL_PORT": "XXX",
-		"MAIL_USER": "XXX",
-		"PRISMA_ENDPOINT": "XXX",
-		"PRISMA_SECRET": "XXX",
-		"STRIPE_SECRET": "XXX"
-	}
-}
-```
-
-6. Run the npm script: npm run deploy
+5. Run the npm script: npm run deploy
 ```
 npm run deploy
 ```
 
-7. Run the npm script: npm start
+6. Run the npm script: npm start
 ```
 npm start
 ```
 
-8. The server will start on this domain
+7. The server will start on this domain
 ```
-https://localhost:5000
+https://localhost:8000
 ```
 
-9. On a new terminal, enter the frontend directory and install the necessary packages
+8. On a new terminal, enter the frontend directory and install the necessary packages
 ```
 cd SickFits/frontend
 npm install
 ```
 
-10. Export the necessary environment variables in the next.config.js file with your preferred value
-```
-module.exports = {
-	env: {
-		ENDPOINT: 'http://localhost:5000',
-		PERPAGE: 4,
-		STRIPE_KEY: XXX,
-	},
-};
-```
-
-11. Run the npm script: npm start
+9. Run the npm script: npm start
 ```
 npm start
 ```
 
-12. The server will start on this domain
+10. The server will start on this domain
 ```
-https://localhost:3000
+https://localhost:8000
 ```
 
 ## Built With
@@ -147,9 +102,8 @@ https://localhost:3000
 
 ## Author
 
-Kazi Jawad
+Alvin Kwan
 
 ## Acknowledgments
 
 * [Fullstack Advanced React & GraphQL](https://advancedreact.com/)
-* [Supreme New York](http://supremenewyork.com/)
